@@ -81,7 +81,7 @@ class TableRenderer extends BaseRenderer
         }
 
         $cells = [];
-        $cells[] = Html::tag('td', '&nbsp;', ['colspan' => count($this->columns)]);
+        $cells[] = Html::tag('td', '&nbsp;', ['colspan' => 5]);
         $cells[] = Html::tag('td', $this->renderAddButton(), [
             'class' => 'list-cell__button'
         ]);
